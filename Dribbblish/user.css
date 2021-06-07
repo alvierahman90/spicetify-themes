@@ -598,7 +598,7 @@ body.remotebar .view-player .player-bar-wrapper {
     font-weight: 400;
 }
 
-.LeftSidebar .SidebarListItem.SidebarListItem--is-active,
+.SidebarListItem.SidebarListItem--is-active,
 .RootlistItem--is-active {
     font-weight: 500;
 }
@@ -1178,6 +1178,7 @@ button#player-button-repeat,
     order: 5;
 }
 
+.view-player .extra-controls-container .button-queue[aria-pressed="true"],
 .view-player .player-controls-container .controls .button-repeat.active,
 .view-player .player-controls-container .controls .button-shuffle.active,
 .view-player .player-controls-container .controls .button-thumbs-down.active,
@@ -1531,4 +1532,8 @@ button[data-button=add-recommendation] {
     border-radius: 4px;
     text-align: center;
     color: var(--modspotify_secondary_fg);
+}
+
+.album-art {
+	padding-left: 20px;
 }
